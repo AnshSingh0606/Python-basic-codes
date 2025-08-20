@@ -1,10 +1,11 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+c = int(input("enter third number: "))
 
 if a >= b and a >= c:
-    print("Maximum:", a)
+    print("max:", a)
 elif b >= a and b >= c:
-    print("Maximum:", b)
+    print("max:", b)
 else:
-    print("Maximum:", c)
+    print("max:", c)
+
