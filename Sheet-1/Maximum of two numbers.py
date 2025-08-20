@@ -2,6 +2,7 @@ a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
 if a > b:
-    print("Maximum:", a)
+    print("max:", a)
 else:
-    print("Maximum:", b)
+    print("max:", b)
+
