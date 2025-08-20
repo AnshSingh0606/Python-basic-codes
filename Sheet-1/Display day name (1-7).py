@@ -1,4 +1,4 @@
-day = int(input("Enter number (1-7): "))
+day = int(input("Enter number : "))
 if day == 1:
     print("Sunday")
 elif day == 2:
@@ -14,4 +14,5 @@ elif day == 6:
 elif day == 7:
     print("Saturday")
 else:
-    print("Invalid input")
+    print("Wrong input")
+
