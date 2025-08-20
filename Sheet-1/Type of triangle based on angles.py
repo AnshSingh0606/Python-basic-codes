@@ -1,6 +1,6 @@
-a = int(input("Enter first angle: "))
-b = int(input("Enter second angle: "))
-c = int(input("Enter third angle: "))
+a = int(input("Enter angle a: "))
+b = int(input("Enter angle b: "))
+c = int(input("Enter angle c: "))
 
 if a + b + c == 180:
     if a == 90 or b == 90 or c == 90:
@@ -11,3 +11,4 @@ if a + b + c == 180:
         print("Acute Triangle")
 else:
     print("Not a valid triangle")
+
