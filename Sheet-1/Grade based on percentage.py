@@ -1,11 +1,12 @@
-percentage = float(input("Enter percentage: "))
-if percentage < 25:
+ptg = float(input("Enter percentage: "))
+if ptg < 25:
+    print("Grade: Fail")
+elif ptg < 45:
     print("Grade: D")
-elif percentage < 45:
+elif ptg < 65:
     print("Grade: C")
-elif percentage < 65:
+elif ptg < 85:
     print("Grade: B")
-elif percentage < 85:
-    print("Grade: A")
 else:
-    print("Grade: A+")
+    print("Grade: A")
+
